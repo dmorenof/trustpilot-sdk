@@ -28,5 +28,4 @@ final class Latest extends \TrustpilotSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), parameters: $params);
         return $result;
     }
-
 }

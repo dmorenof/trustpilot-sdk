@@ -16,5 +16,4 @@ final class Reviews extends \TrustpilotSDK\TrustpilotAPISDK
     {
         return self::client()->resource(\TrustpilotSDK\Resources\V1\Reviews::class)->getByReviewId($reviewId, $params);
     }
-
 }

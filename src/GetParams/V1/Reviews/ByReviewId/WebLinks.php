@@ -7,17 +7,17 @@ namespace TrustpilotSDK\GetParams\V1\Reviews\ByReviewId;
 final class WebLinks extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apikey',
-    'locale',
-];
+        'apikey',
+        'locale',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'apikey' => 'apikey',
-        'locale' => 'locale',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'apikey' => 'apikey',
+            'locale' => 'locale',
+        ],
+        'header' => [],
+    ];
 
     public string $apikey;
     public string $locale;

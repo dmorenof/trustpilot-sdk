@@ -7,19 +7,19 @@ namespace TrustpilotSDK;
 class Client extends \Dmorenof\SdkRuntime\ApiClient
 {
     protected const array SECURITY_SCHEMES = [
-    'ApiKey' => [
-        'type' => 'apiKey',
-        'scheme' => null,
-        'location' => 'query',
-        'parameterName' => 'apikey',
-    ],
-    'OAuth2' => [
-        'type' => 'oauth2',
-        'scheme' => null,
-        'location' => null,
-        'parameterName' => null,
-    ],
-];
+        'ApiKey' => [
+            'type' => 'apiKey',
+            'scheme' => null,
+            'location' => 'query',
+            'parameterName' => 'apikey',
+        ],
+        'OAuth2' => [
+            'type' => 'oauth2',
+            'scheme' => null,
+            'location' => null,
+            'parameterName' => null,
+        ],
+    ];
 
     private static ?self $currentConnection = null;
 

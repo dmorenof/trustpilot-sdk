@@ -37,5 +37,4 @@ final class Reviews extends \TrustpilotSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_REVIEW_ID), path: ['reviewId' => $reviewId], parameters: $params);
         return $result;
     }
-
 }

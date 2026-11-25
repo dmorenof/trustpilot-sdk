@@ -16,5 +16,4 @@ final class Categories extends \TrustpilotSDK\TrustpilotAPISDK
     {
         return self::client()->resource(\TrustpilotSDK\Resources\V1\BusinessUnits\ByBusinessUnitId\Categories::class)->get($businessUnitId, $params);
     }
-
 }

@@ -16,5 +16,4 @@ final class WebLinks extends \TrustpilotSDK\TrustpilotAPISDK
     {
         return self::client()->resource(\TrustpilotSDK\Resources\V1\BusinessUnits\ByBusinessUnitId\WebLinks::class)->get($businessUnitId, $params);
     }
-
 }

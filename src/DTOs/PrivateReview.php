@@ -7,11 +7,11 @@ namespace TrustpilotSDK\DTOs;
 final class PrivateReview extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'stars' => [
-        'minimum' => 1,
-        'maximum' => 5,
-    ],
-];
+        'stars' => [
+            'minimum' => 1,
+            'maximum' => 5,
+        ],
+    ];
 
     public \TrustpilotSDK\DTOs\PrivateReview\BusinessUnitDTO $businessUnit;
     public \TrustpilotSDK\DTOs\PrivateReview\ConsumerDTO $consumer;

@@ -16,5 +16,4 @@ final class Latest extends \TrustpilotSDK\TrustpilotAPISDK
     {
         return self::client()->resource(\TrustpilotSDK\Resources\V1\Reviews\Latest::class)->get($params);
     }
-
 }

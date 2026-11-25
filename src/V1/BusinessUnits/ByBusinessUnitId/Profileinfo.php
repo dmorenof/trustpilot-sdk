@@ -16,5 +16,4 @@ final class Profileinfo extends \TrustpilotSDK\TrustpilotAPISDK
     {
         return self::client()->resource(\TrustpilotSDK\Resources\V1\BusinessUnits\ByBusinessUnitId\Profileinfo::class)->get($businessUnitId, $params);
     }
-
 }

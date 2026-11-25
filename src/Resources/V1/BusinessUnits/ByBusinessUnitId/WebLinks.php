@@ -28,5 +28,4 @@ final class WebLinks extends \TrustpilotSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['businessUnitId' => $businessUnitId], parameters: $params);
         return $result;
     }
-
 }

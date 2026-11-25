@@ -7,13 +7,13 @@ namespace TrustpilotSDK\GetParams\V1\PrivateResource\BusinessUnits\ByBusinessUni
 final class Reviews extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'page' => 'page',
-        'perPage' => 'perPage',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'page' => 'page',
+            'perPage' => 'perPage',
+        ],
+        'header' => [],
+    ];
 
     public ?int $page;
     public ?int $perPage;

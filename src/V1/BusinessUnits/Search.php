@@ -16,5 +16,4 @@ final class Search extends \TrustpilotSDK\TrustpilotAPISDK
     {
         return self::client()->resource(\TrustpilotSDK\Resources\V1\BusinessUnits\Search::class)->get($params);
     }
-
 }

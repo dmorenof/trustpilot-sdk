@@ -7,27 +7,27 @@ namespace TrustpilotSDK\GetParams\V1\Reviews;
 final class Latest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apikey',
-    'count',
-    'language',
-];
+        'apikey',
+        'count',
+        'language',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'apikey' => 'apikey',
-        'count' => 'count',
-        'filterUsersWithoutImages' => 'filterUsersWithoutImages',
-        'language' => 'language',
-        'locale' => 'locale',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'apikey' => 'apikey',
+            'count' => 'count',
+            'filterUsersWithoutImages' => 'filterUsersWithoutImages',
+            'language' => 'language',
+            'locale' => 'locale',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'count' => [
-        'maximum' => 100,
-    ],
-];
+        'count' => [
+            'maximum' => 100,
+        ],
+    ];
 
     public string $apikey;
     public int $count {
